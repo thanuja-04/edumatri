@@ -110,6 +110,13 @@
     right: -15px;
     z-index: 1;
     }
+
+    .heading-h1{
+        font-size: 4rem;
+        color: white;
+        text-align: center;
+    }
+
     .rightcontainerarrow{
     position: absolute;
     height: 0;

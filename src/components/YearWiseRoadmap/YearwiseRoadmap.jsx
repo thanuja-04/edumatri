@@ -1,17 +1,20 @@
 import React, { useState } from "react";
 
 import "./Yearwiseroadmap.css";
+import Footer from "../HomeComponents/Footer";
 const YearwiseRoadmap = ({ years }) => {
   const [selectedYear, setSelectedYear] = useState(years[0].id);
 
   const handleChange = (event) => {
     setSelectedYear(event.target.value);
   };
+  
 
   return (
-    <div className="bg-gray-700">
+    <div className="bg-primary-700">
+        <h1 className="heading-h1">Year-Wise Roadmap</h1><hr/>
       <div className="my-5 mx-auto text-center">
-        <label htmlFor="yearSelect" className="text-white">
+        <label htmlFor="yearSelect" className="text-white text-2xl">
           Select Year:
         </label>
         <select
@@ -56,6 +59,7 @@ const YearwiseRoadmap = ({ years }) => {
             </div>
           ))}
       </div>
+      <Footer/>
     </div>
   );
 };
