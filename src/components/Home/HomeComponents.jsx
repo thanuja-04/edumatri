@@ -7,6 +7,7 @@ import Roadmap from '../HomeComponents/Roadmap';
 import Scholarships from '../HomeComponents/Scholarships';
 import Internships from '../HomeComponents/Internships';
 import Footer from '../HomeComponents/Footer';
+import ChatbotComponent from '../HomeComponents/ChatBotComponent';
 
 
 export const HomeComponents = () => {
@@ -30,6 +31,7 @@ export const HomeComponents = () => {
         <Roadmap />
         <Scholarships />
         <Internships />
+        <ChatbotComponent/>
         <Footer />
                 
       </div>

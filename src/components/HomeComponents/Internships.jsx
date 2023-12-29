@@ -1,6 +1,9 @@
 import { card } from "../../assets";
 import styles, { layout } from "../../style";
 import Button from "./Button";
+import { Link } from 'react-router-dom';
+import { Route as RouteNames,RoutePrefix } from '../../constants/roots';
+
 
 const Internships = () => (
   <section id="internships" className={layout.section}>
@@ -12,7 +15,9 @@ const Internships = () => (
       Unlock your capabilities through transformative internships, where learning, application, and success converge for boundless professional growth.
       </p>
 
+      <Link to={`${RoutePrefix}/${RouteNames.intern}`}>
       <Button styles={`mt-10`} />
+      </Link>
     </div>
 
     <div className={layout.sectionImg}>

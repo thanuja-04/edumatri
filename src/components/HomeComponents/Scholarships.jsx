@@ -2,6 +2,9 @@ import {bill } from "../../assets";
 import styles, { layout } from "../../style";
 import Button from "./Button";
 
+import { Link } from 'react-router-dom';
+import { Route as RouteNames,RoutePrefix } from '../../constants/roots';
+
 const Scholarships = () => (
   <section id="scholarships" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
@@ -22,7 +25,9 @@ const Scholarships = () => (
       Empower your vision. Scholarships unlocking futures for innovative minds, fostering change and advancing knowledge.
       </p>
 
+      <Link to={`${RoutePrefix}/${RouteNames.scholar}`}>
       <Button styles={`mt-10`} />
+      </Link>
     </div>
 
     

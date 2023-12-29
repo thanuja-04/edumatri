@@ -1,0 +1,101 @@
+.resources-bg {
+    background-color: #060915;
+    background-size: cover;
+
+}
+
+.Resources-headings {
+    color: #1ad9a6;
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
+.res-learning-image {
+    width: 20%;
+}
+
+.res-learn-name {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Roboto;
+    padding: 5px;
+}
+
+.Resources-card-bg {
+    background-image: radial-gradient(#23a19f, #156665, #0d4a49);
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+
+.Scholarships-bg-card {
+    background-image: url("https://videohive.img.customer.envatousercontent.com/files/8e787128-13af-4a7f-b901-a7775f3d8b27/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=4f61ddb4b050107a7891872ec6248b5d");
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.Scholarships-bg-card2 {
+    background-image: url("https://t4.ftcdn.net/jpg/04/60/10/53/360_F_460105378_yRgAgbBBjqaxXT25bGnhEJLXKTWdmmJR.jpg");
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.Scholarships-bg-card3 {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/028/580/017/non_2x/cyan-shiny-technology-background-with-abstract-waves-vector.jpg");
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.Scholarships-bg-card4 {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20190820/pngtree-trendy-80-style-background-with-geometric-shapes-memphis-modern-image_304130.jpg?hl=en_US");
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.Scholarship-title {
+    color: white;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.scholarship-link {
+    color: #1ad9a6;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.skill-image {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.skill-name {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: Roboto;
+    padding: 5px;
+
+}
+
+.skills-background {
+    background-image: radial-gradient(#23a19f, #156665, #0d4a49);
+    width: 100%;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+
+.message2 {
+    color: white;
+    font-style: italic;
+}
+
