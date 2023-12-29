@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/edumatri/static/css/main.8253a859.css",
-    "main.js": "/edumatri/static/js/main.a96f3cbf.js",
+    "main.js": "/edumatri/static/js/main.d8e3abdc.js",
     "static/js/787.a82397e3.chunk.js": "/edumatri/static/js/787.a82397e3.chunk.js",
     "static/media/robot.png": "/edumatri/static/media/robot.e27590f872f8367799a9.png",
     "static/media/bill.png": "/edumatri/static/media/bill.4acdb63e05d3190daa7c.png",
@@ -15,11 +15,11 @@
     "static/media/Send.svg": "/edumatri/static/media/Send.b7f09b0fd9a29ffad13e1f504acd624a.svg",
     "index.html": "/edumatri/index.html",
     "main.8253a859.css.map": "/edumatri/static/css/main.8253a859.css.map",
-    "main.a96f3cbf.js.map": "/edumatri/static/js/main.a96f3cbf.js.map",
+    "main.d8e3abdc.js.map": "/edumatri/static/js/main.d8e3abdc.js.map",
     "787.a82397e3.chunk.js.map": "/edumatri/static/js/787.a82397e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8253a859.css",
-    "static/js/main.a96f3cbf.js"
+    "static/js/main.d8e3abdc.js"
   ]
 }
