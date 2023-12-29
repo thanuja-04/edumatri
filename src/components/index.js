@@ -1,23 +1,19 @@
-import Navbar from "./Navbar";
-import Scholarships from "./Scholarships";
-import CardDeal from "./CardDeal";
-import Business from "./Business";
-import Clients from "./Clients";
-import CTA from "./CTA";
-import Stats from "./Stats";
-import Footer from "./Footer";
-import Testimonials from "./Testimonials";
-import Home from "./Home";
+import Navbar from "./HomeComponents/Navbar";
+import Scholarships from "./HomeComponents/Scholarships";
+import Internships from "./HomeComponents/Internships";
+import Roadmap from "./HomeComponents/Roadmap";
+import Stats from "./HomeComponents/Stats";
+import Footer from "./HomeComponents/Footer";
+import Home from "./HomeComponents/Home";
+import YearwiseRoadmap from "./Yearwiseroadmap";
 
 export {
   Navbar,
   Scholarships,
-  CardDeal,
-  Business,
-  Clients,
-  CTA,
+  Internships,
+  Roadmap,
   Stats,
   Footer,
-  Testimonials,
   Home,
+  YearwiseRoadmap,
 };

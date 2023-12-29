@@ -1,33 +1,23 @@
-import styles from "./style";
-import { Scholarships, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Home } from "./components";
+import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import YearwiseRoadmap  from './components/YearWiseRoadmap/YearwiseRoadmap'
+import { HomeComponents } from './components/Home/HomeComponents';
+import {years}from './constants';
+import { Route as RouteNames,RoutePrefix } from './constants/roots';
 
-const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
-      </div>
-    </div>
+const App = () => {
+  return (
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<HomeComponents/>}/>
+      <Route path={`${RoutePrefix}/${RouteNames.Home}`} element={<HomeComponents/>}/>
+      <Route path={`${RoutePrefix}/${RouteNames.yearwiseRoadmap}`} element={<YearwiseRoadmap years={years}/>}/>
 
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Home />
-      </div>
-    </div>
-    
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Stats />
-        <Business />
-        <Scholarships />
-        <CardDeal />
-        <Testimonials />
-        <Clients />
-        <CTA />
-        <Footer />
-      </div>
-    </div>
-  </div>
-);
+         
+      
+    </Routes>
+  </BrowserRouter>
+  )
+}
 
-export default App;
+export default App

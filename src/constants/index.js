@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -43,33 +43,6 @@ export const features = [
   },
 ];
 
-export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
-  },
-];
-
 export const stats = [
   {
     id: "stats-1",
@@ -88,110 +61,169 @@ export const stats = [
   },
 ];
 
-export const footerLinks = [
+export const years = [
   {
-    title: "Useful Links",
-    links: [
+    id: "year-1",
+    data: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        title: "Step-1",
+        contentheading: "Programming Language:",
+        content:
+          "C++ or Java for familiarity, C for fundamental understanding; choose based on experience.",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        title: "Step-2",
+        contentheading: "Setting Up:",
+        content:
+          "Register on GeeksforGeeks, LinkedIn, GitHub, and practice DSA on LeetCode, CodeChef, Codeforces.",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        title: "Step-3",
+        contentheading: "Focus for Beginners:",
+        content:
+          "Dedicate 1-2 hours daily, balance CGPA, track placement trends for academic and coding success.",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        title: "Step-4",
+        contentheading: "Career Paths:",
+        content:
+          "Explore Software Development, Data Analytics, Cyber Security, Product Development, Designing, and Management.",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        title: "Step-5",
+        contentheading: "Project Building:",
+        content:
+          "Apply knowledge by creating small projects. GitHub repositories showcase practical skills to potential employers.",
+      },
+      {
+        title: "Step-6",
+        contentheading: "Networking:",
+        content:
+          "Engage on LinkedIn, attend meetups, and connect with professionals to expand industry networks for opportunities.",
       },
     ],
   },
   {
-    title: "Community",
-    links: [
+  id: "year-2",
+    data: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        title: "Step-1",
+        contentheading: "Programming & Data Structures:",
+        content:
+          "Master programming basics and progress to advanced concepts like Trees, Hashing, and Graphs.",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        title: "Step-2",
+        contentheading: "Competitive Coding Skills:",
+        content:
+          "Enhance problem-solving through contests, Upsolving, and tackling diverse patterns for comprehensive understanding.",
       },
       {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        title: "Step-3",
+        contentheading: "Daily DSA Practice Routine:",
+        content:
+          "Dedicate 3-4 hours daily to Data Structures and Algorithms, starting with basics and advancing progressively.",
       },
       {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        title: "Step-4",
+        contentheading: "LinkedIn Networking Strategies:",
+        content:
+          "Establish a professional network on LinkedIn, connecting with companies, CEOs, and peers for opportunities.",
       },
       {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        title: "Step-5",
+        contentheading: "Visible Resume Building:",
+        content:
+          "Showcase your resume on platforms like GitHub and LinkedIn, staying active to understand market trends.",
+      },
+      {
+        title: "Step-6",
+        contentheading: "Stay Informed, Adapt & Innovate:",
+        content:
+          "Stay updated on technology trends, adapting to changes, and incorporating new skills into your repertoire.",
       },
     ],
   },
   {
-    title: "Partner",
-    links: [
+  id: "year-3",
+    data: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        title: "Step-1",
+        contentheading: "Career Exploration in 3rd Year:",
+        content:
+          "Explore interests like web/app development, DevOps, or Competitive Programming to narrow down career paths.",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        title: "Step-2",
+        contentheading: "Advanced DSA Mastery:",
+        content:
+          "Master core Data Structures and Algorithms, covering Arrays, Trees, Graphs, Dynamic Programming, and more.",
+      },
+      {
+        title: "Step-3",
+        contentheading: "CSE Core Subjects Focus:",
+        content:
+          "Prioritize fundamental concepts in Operating Systems, Database Management, and Computer Networks for a solid foundation.",
+      },
+      {
+        title: "Step-4",
+        contentheading: "Soft Skills Development:",
+        content:
+          "Cultivate essential skills like communication, teamwork, and problem-solving crucial for professional success and collaboration.",
+      },
+      {
+        title: "Step-5",
+        contentheading: "Practical Development and Projects:",
+        content:
+          "Apply learned concepts to real projects, planning, designing, implementing, and showcasing them on resumes and portfolios.",
+      },
+      {
+        title: "Step-6",
+        contentheading: "Project Tips and Examples:",
+        content:
+          "Align projects with career goals, plan, implement with relevant tools, and showcase, like a unique mobile app or API-integrated web application.",
       },
     ],
   },
-];
-
-export const socialMedia = [
   {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
-  },
-];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: airbnb,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
+  id: "year-4",
+    data: [
+      {
+        title: "Step-1",
+        contentheading: "Creative Project Selection:",
+        content:
+          "Choose challenging tasks, think creatively, and gain hands-on experience for standout projects.",
+      },
+      {
+        title: "Step-2",
+        contentheading: "Continuous Industry Updates:",
+        content:
+          "Stay current with the latest trends, updating knowledge to align with industry advancements.",
+      },
+      {
+        title: "Step-3",
+        contentheading: "Consistent DSA Practice:",
+        content:
+          "Dedicate 6-7 hours daily to Data Structures and Algorithms for continuous skill enhancement.",
+      },
+      {
+        title: "Step-4",
+        contentheading: "Contests, Upsolving, and Mock Interviews:",
+        content:
+          "Participate in coding contests, Upsolve challenges, and simulate real-world scenarios through mock interviews.",
+      },
+      {
+        title: "Step-5",
+        contentheading: "Holistic Skill Development:",
+        content:
+          "Revise core subjects, explore freelancing and Open Source, focus on system design, and version control.",
+      },
+      {
+        title: "Step-6",
+        contentheading: "ATS-Optimized Resume and Internships:",
+        content:
+          "Craft a resume accepted by ATS, and apply for 6-month internships to enhance practical skills.",
+      },
+    ],
   },
 ];
