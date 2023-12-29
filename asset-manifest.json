@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/edumatri/static/css/main.e22c3770.css",
+    "main.js": "/edumatri/static/js/main.cf51c753.js",
+    "static/js/787.a82397e3.chunk.js": "/edumatri/static/js/787.a82397e3.chunk.js",
+    "static/media/robot.png": "/edumatri/static/media/robot.e27590f872f8367799a9.png",
+    "static/media/bill.png": "/edumatri/static/media/bill.4acdb63e05d3190daa7c.png",
+    "static/media/card.png": "/edumatri/static/media/card.b141d6ba01c9d7e703b3.png",
+    "static/media/logo.png": "/edumatri/static/media/logo.a16d5d1445fcd6d5f70c.png",
+    "static/media/close.svg": "/edumatri/static/media/close.4b1cc5d063959cf86b7849aef0c24c63.svg",
+    "static/media/Star.svg": "/edumatri/static/media/Star.4e0f3ea6e0c6e27f8acc54dcca7cfbe2.svg",
+    "static/media/menu.svg": "/edumatri/static/media/menu.773d1f3d335d2a46203de2be7f4f4e19.svg",
+    "static/media/Shield.svg": "/edumatri/static/media/Shield.7ab56fff277c91081663825b6efaea52.svg",
+    "static/media/arrow-up.svg": "/edumatri/static/media/arrow-up.f0281f2a41a6844dff95ff0c3a06e194.svg",
+    "static/media/Send.svg": "/edumatri/static/media/Send.b7f09b0fd9a29ffad13e1f504acd624a.svg",
+    "index.html": "/edumatri/index.html",
+    "main.e22c3770.css.map": "/edumatri/static/css/main.e22c3770.css.map",
+    "main.cf51c753.js.map": "/edumatri/static/js/main.cf51c753.js.map",
+    "787.a82397e3.chunk.js.map": "/edumatri/static/js/787.a82397e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e22c3770.css",
+    "static/js/main.cf51c753.js"
+  ]
+}
