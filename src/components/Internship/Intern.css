@@ -1,69 +1,67 @@
 .hire-ops-bg {
-    background-color: #060915;
-    background-size: cover;
-
+  background-color: #060915;
+  background-size: cover;
 }
 
 .hire-ops-headings {
-    color: #1ad9a6;
-    font-size: 30px;
-    font-family: Roboto;
-    font-weight: 600;
+  color: #1ad9a6;
+  font-size: 30px;
+  font-family: Roboto;
+  font-weight: 600;
 }
 
 .hire-ops-bg-card {
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/471/767/754/abstract-ae-plexus-cyan-dots-wallpaper-preview.jpg");
-    background-size: cover;
-    border-radius: 16px;
-
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/471/767/754/abstract-ae-plexus-cyan-dots-wallpaper-preview.jpg");
+  background-size: cover;
+  border-radius: 16px;
 }
-
+.hire-ops-bg-card a {
+  display: flex;
+  flex-direction: row;
+}
+.hire-ops-bg-card a svg {
+  margin-top: 3px;
+}
 .hire-ops-card-title {
-    color: white;
-    font-family: "Roboto";
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: 20px;
-
+  color: white;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
 }
 
 .hire-ops-card-link {
-    color: #1ad9a6;
-    font-family: "Roboto";
-    font-size: 16px;
-    font-weight: 500;
-
+  color: #1ad9a6;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .message {
-    color: white;
-    font-style: italic;
+  color: white;
+  font-style: italic;
 }
 
 .ops-image {
-    width: 50%;
-    border-radius: 50%;
+  width: 50%;
+  border-radius: 50%;
 }
 
 .ops-image2 {
-    width: 50%;
-
+  width: 50%;
 }
 
 .ops-name {
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
-    font-family: Roboto;
-    padding: 5px;
-
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: Roboto;
+  padding: 5px;
 }
 
 .ops-background {
-    background-image: radial-gradient(#23a19f, #156665, #0d4a49);
-    width: 100%;
-    border-radius: 15px;
-    padding: 10px;
-
+  background-image: radial-gradient(#23a19f, #156665, #0d4a49);
+  width: 100%;
+  border-radius: 15px;
+  padding: 10px;
 }
-

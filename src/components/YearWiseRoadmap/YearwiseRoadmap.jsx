@@ -8,11 +8,12 @@ const YearwiseRoadmap = ({ years }) => {
   const handleChange = (event) => {
     setSelectedYear(event.target.value);
   };
-  
+  window.scrollTo(0, 0);
 
   return (
     <div className="bg-primary-700">
-        <h1 className="heading-h1">Year-Wise Roadmap</h1><hr/>
+      <h1 className="heading-h1">Year-Wise Roadmap</h1>
+      <hr />
       <div className="my-5 mx-auto text-center">
         <label htmlFor="yearSelect" className="text-white text-2xl">
           Select Year:
@@ -38,7 +39,9 @@ const YearwiseRoadmap = ({ years }) => {
               className={`containers ${
                 index % 2 === 0 ? "leftcontainer" : "rightcontainer"
               }`}
-            >   <img
+            >
+              {" "}
+              <img
                 src="https://img.freepik.com/free-vector/illustration-favorite-star_538
 76-6163.jpg?w=1060&t=st=1703830461~exp=1703831061~hmac=dcad837b01f7d066
 8228ff724418d4d6e6292e0cf6238e5fe1b65c7e166547cd"
@@ -59,7 +62,7 @@ const YearwiseRoadmap = ({ years }) => {
             </div>
           ))}
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 };
