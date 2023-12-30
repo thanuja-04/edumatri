@@ -18,6 +18,12 @@
 .hire-ops-bg-card a {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+.ops-background a div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .hire-ops-bg-card a svg {
   margin-top: 3px;
