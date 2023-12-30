@@ -23,7 +23,7 @@
 }
 
 .Resources-card-bg {
-  background-image: radial-gradient(#23a19f, #156665, #0d4a49);
+  background-image: radial-gradient(#56e7c0, #10906d));
   width: 100%;
   border-radius: 15px;
   padding: 10px;
@@ -86,7 +86,7 @@
 }
 
 .skills-background {
-  background-image: radial-gradient(#23a19f, #156665, #0d4a49);
+  background-image: radial-gradient(#56e7c0, #10906d));
   width: 100%;
   border-radius: 15px;
   padding: 10px;
