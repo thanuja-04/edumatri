@@ -12,7 +12,7 @@ const ChatbotComponent = () => {
     script.defer = true;
 
     // Append the script to the body
-    document.body.appendChild(script);
+   document.body.appendChild(script);
 
     // Clean up the script on component unmount
     return () => {
