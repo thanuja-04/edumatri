@@ -12,7 +12,7 @@ const Intern = () => {
         </div>
 
         <div className="sm:col-span-2 col-span-1 hire-ops-bg-card">
-          <div className="bg-cover card shadow p-3 mb-3">
+          <div className="bg-cover card shadow p-4 mb-3">
             <h1 className="text-white text-xl font-medium">
               A Guide for internship & Placements Preparation
             </h1>
@@ -41,7 +41,7 @@ const Intern = () => {
         </div>
 
         <div className="sm:col-span-2 col-span-1 hire-ops-bg-card">
-          <div className="bg-cover card shadow p-3 mb-3">
+          <div className="bg-cover card shadow p-4 mb-3">
             <h1 className="text-white text-xl font-medium">
               Hiring challenges
             </h1>
